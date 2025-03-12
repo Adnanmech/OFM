@@ -23,10 +23,10 @@ Expected Outcomes:
 ## References:
 
 
-[1]	B. Wang, Z. Sun, X. Jiang, J. Zeng, and R. Liu, “Kalman Filter and Its Application in Data Assimilation,” Atmosphere, vol. 14, no. 8, Art. no. 8, Aug. 2023, doi: 10.3390/atmos14081319.
-[2]	K. Kurosawa and J. Poterjoy, “Data Assimilation Challenges Posed by Nonlinear Operators: A Comparative Study of Ensemble and Variational Filters and Smoothers,” Mon. Weather Rev., Jan. 2021, doi: 10.1175/MWR-D-20-0368.1.
-[3]	“SWOT Level 2 River Single-Pass Vector Reach Data Product, Version 2.0.” NASA/JPL/PODAAC, Jul. 20, 2022. Accessed: Jan. 20, 2025. [Online]. Available: https://catalog.data.gov/dataset/swot-level-2-river-single-pass-vector-reach-data-product-version-2-0-58b1b
-[4]	D. Yamazaki et al., “A high‐accuracy map of global terrain elevations,” Geophys. Res. Lett., vol. 44, no. 11, pp. 5844–5853, Jun. 2017, doi: 10.1002/2017GL072874.
-[5]	“USGS Current Water Data for the Nation.” Accessed: Feb. 25, 2025. [Online]. Available: https://waterdata.usgs.gov/nwis/rt
-[6]	Y. Shi, Z. E. Ross, D. Asimaki, and K. Azizzadenesheli, “Stochastic Process Learning via Operator Flow Matching,” Jan. 09, 2025, arXiv: arXiv:2501.04126. doi: 10.48550/arXiv.2501.04126.
-[7]	N. Kovachki, Z. Li, B. Liu, K. Azizzadenesheli, K. Bhattacharya, and A. Stuart, “Neural Operator: Learning Maps Between Function Spaces With Applications to PDEs”.
+- [1]	B. Wang, Z. Sun, X. Jiang, J. Zeng, and R. Liu, “Kalman Filter and Its Application in Data Assimilation,” Atmosphere, vol. 14, no. 8, Art. no. 8, Aug. 2023, doi: 10.3390/atmos14081319.
+- [2]	K. Kurosawa and J. Poterjoy, “Data Assimilation Challenges Posed by Nonlinear Operators: A Comparative Study of Ensemble and Variational Filters and Smoothers,” Mon. Weather Rev., Jan. 2021, doi: 10.1175/MWR-D-20-0368.1.
+- [3]	“SWOT Level 2 River Single-Pass Vector Reach Data Product, Version 2.0.” NASA/JPL/PODAAC, Jul. 20, 2022. Accessed: Jan. 20, 2025. [Online]. Available: https://catalog.data.gov/dataset/swot-level-2-river-single-pass-vector-reach-data-product-version-2-0-58b1b
+- [4]	D. Yamazaki et al., “A high‐accuracy map of global terrain elevations,” Geophys. Res. Lett., vol. 44, no. 11, pp. 5844–5853, Jun. 2017, doi: 10.1002/2017GL072874.
+- [5]	“USGS Current Water Data for the Nation.” Accessed: Feb. 25, 2025. [Online]. Available: https://waterdata.usgs.gov/nwis/rt
+- [6]	Y. Shi, Z. E. Ross, D. Asimaki, and K. Azizzadenesheli, “Stochastic Process Learning via Operator Flow Matching,” Jan. 09, 2025, arXiv: arXiv:2501.04126. doi: 10.48550/arXiv.2501.04126.
+- [7]	N. Kovachki, Z. Li, B. Liu, K. Azizzadenesheli, K. Bhattacharya, and A. Stuart, “Neural Operator: Learning Maps Between Function Spaces With Applications to PDEs”.
