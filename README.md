@@ -5,11 +5,11 @@ Objective & Research Question: The primary objective is to develop a stochastic 
 Traditional methods (like Kalman Filter variations) typically rely on Gaussian assumptions [1] and linear approximations, limiting their performance with nonlinear, high-dimensional, or non-Gaussian geospatial data. Required computation is also another limitation[2]. OFM addresses these limitations through a more flexible, data-driven approach.
 
 Data Sources:
-SWOT (Surface Water and Ocean Topography) [3] data: Includes water surface elevations and slopes along with their associated uncertainties; resolution ~50-100m, temporal coverage from 2022-present, available publicly from NASA's DAAC archives.
+- SWOT (Surface Water and Ocean Topography) [3] data: Includes water surface elevations and slopes along with their associated uncertainties; resolution ~50-100m, temporal coverage from 2022-present, available publicly from NASA's DAAC archives.
 
-MERIT DEM [4] : A publicly available high-resolution (~90m globally) dataset providing elevation information, spatial coverage global, available from MERIT Hydro repository. 
+- MERIT DEM [4] : A publicly available high-resolution (~90m globally) dataset providing elevation information, spatial coverage global, available from MERIT Hydro repository. 
 
-USGS gauge station river depth data [5]: Ground observations providing accurate depth measurements with temporal coverage varying by station, publicly accessible from USGS National Water Information System (NWIS).
+- USGS gauge station river depth data [5]: Ground observations providing accurate depth measurements with temporal coverage varying by station, publicly accessible from USGS National Water Information System (NWIS).
 
 Methodology: The project will utilize Operator Flow Matching (OFM), a novel method for stochastic process learning, as described by [6]. SWOT-derived water surface elevation and slope data, along with associated uncertainty, and MERIT DEM elevation data will serve as model inputs, while USGS gauge station river depth data will serve as the target variable. The data will be spatially and temporally aligned, preprocessed to handle missing values and normalized appropriately. A Python code will be developed, utilizing PyTorch and/or Nvidia modulus for neural network modeling. The Operator Flow Matching approach will employ Fourier Neural Operators (FNO) [7] for efficient computation and scalability. Training and test datasets will be strictly separated by geographic location to avoid data contamination.
 Validation & Assessment: Model performance will be assessed using independent USGS ground observations. Metrics such as Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE) will be employed. Uncertainties will be directly modeled and propagated using the stochastic nature of the operator flow matching approach, with robustness checked against multiple test scenarios at distinct geographical locations.
